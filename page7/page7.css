@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.side-pic{
+    width: 30%;
+    height: 100%;
+    object-fit: cover;
+    object-position: right;
+    background-image: url('https://images.pexels.com/photos/12756665/pexels-photo-12756665.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+}
+
+.login {
+    width: 100%;
+    height: 100%;
+    background: rgb(226, 227, 229);
+    display: flex;
+    justify-content: center;
+    min-width: 460px;
+    
+}
+
+.message{
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    min-width: 460px;
+    font-size: 5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 10%;
+
+}
+
+.login-div {
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    background-color: rgba(162, 162, 166, 0.5);
+    margin:20%;
+    max-width: 60vh;
+    border: 1px solid white;
+}
+
+.shadow {
+    box-shadow: 
+    0px 0px 10px 1px rgba(60, 92, 107, 0.5),
+    1px 0px 5px 1px rgba(58, 85, 92, 0.5),
+    0px 1px 10px 1px rgba(121, 118, 118, 0.5),
+    1px 0px 10px 11px rgba(103, 195, 234, 0.5);
+}
+
+.login-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 4rem;
+}
+
+.input{
+    border-radius: 4px;
+    border: 1px solid white;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    min-width: 200px;
+    font-size: 1.2rem;
+}
+
+.button{
+    border-radius: 20px;
+    border: 1px solid white;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    width: 80%;
+    font-size: 1rem;
+    background-color: rgba(162, 162, 166, 0.5);
+    color: white;
+    font-weight: bold;
+}
+
+.button:hover{
+    background-color: rgba(162, 162, 166, 0.8);
+    color: black;
+    transition-duration: 0.3s;
+}
+
+.login-button{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+@media (max-width: 768px) {
+    .login-div {
+        width: 80vw;
+        height: 80vh;
+        margin: 10%;
+    }
+}
+
+@media (max-width: 490px) {
+    .side-pic {
+        display: none;
+    }
+}
+
+
+.icon {
+    font-size:60px;
+    color:red;
+}
