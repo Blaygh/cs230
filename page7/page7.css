@@ -12,7 +12,7 @@ main {
 }
 
 .side-pic{
-    width: 30%;
+    width: 45%;
     height: 100%;
     object-fit: cover;
     object-position: right;
@@ -67,7 +67,8 @@ main {
 .login-title {
     font-size: 2rem;
     font-weight: bold;
-    margin-bottom: 4rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
 }
 
 .input{
@@ -84,7 +85,7 @@ main {
     border-radius: 20px;
     border: 1px solid white;
     padding: 0.5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
     width: 80%;
     font-size: 1rem;
     background-color: rgba(162, 162, 166, 0.5);
