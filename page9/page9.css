@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+}
+
+.login {
+    width: 100%;
+    height: 100%;
+    background: rgb(226, 227, 229);
+    display: flex;
+    justify-content: center;
+    min-width: 460px;
+    
+}
+
+.login-div {
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    background-color: rgba(162, 162, 166, 0.5);
+    margin:20%;
+    max-width: 60vh;
+    border: 1px solid white;
+}
+
+.shadow {
+    box-shadow: 
+    0px 0px 10px 1px rgba(60, 92, 107, 0.5),
+    1px 0px 5px 1px rgba(58, 85, 92, 0.5),
+    0px 1px 10px 1px rgba(121, 118, 118, 0.5),
+    1px 0px 10px 11px rgba(103, 195, 234, 0.5);
+}
+
+.login-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+
+.button{
+    border-radius: 20px;
+    border: 1px solid white;
+    padding: 0.5rem;
+    margin-bottom: 3rem;
+    width: 80%;
+    font-size: 1rem;
+    background-color: rgba(162, 162, 166, 0.5);
+    color: white;
+    font-weight: bold;
+}
+
+.button:hover{
+    background-color: rgba(162, 162, 166, 0.8);
+    color: black;
+    transition-duration: 0.3s;
+}
+
+.login-button{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
