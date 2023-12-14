@@ -1,0 +1,152 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #1a1a1a;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.content p{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.content a{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: white;
+    text-decoration: none;
+}
+
+.content a:hover{
+    color: #00b3b3;
+}
+
+.content button{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: white;
+    text-decoration: none;
+    background-color: #00b3b3;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+}
+
+.content button:hover{
+    background-color: #00cccc;
+    transition-duration: 0.3s;
+}
+
+.content .button-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.content .button-div button{
+    width: 45%;
+}
+
+.content .button-div button:hover{
+    background-color: #00cccc;
+    transition-duration: 0.3s;
+}
+
+.content .button-div button:active{
+    background-color: #00e6e6;
+}
+
+.content .button-div button:focus{
+    outline: none;
+}
+
+.content .button-div button:disabled{
+    background-color: #00cccc;
+    color: #1a1a1a;
+}
+
+.content .button-div button:disabled:hover{
+    background-color: #00cccc;
+    color: #1a1a1a;
+}
+
+.content .button-div button:disabled:active{
+    background-color: #00cccc;
+    color: #1a1a1a;
+}
+
+.content .button-div button:disabled:focus{
+    background-color: #00cccc;
+    color: #1a1a1a;
+}
+
+.content .button-div button:disabled:visited{
+    background-color: #00cccc;
+    color: #1a1a1a;
+}
+
+.content .button-div button:disabled:link{
+    background-color: #00cccc;
+    color: #1a1a1a;
+}
+
+.content .button-div button:disabled:after{
+    background-color: #00cccc;
+    color: #1a1a1a;
+}
+
+.content .button-div button:disabled:before{
+    background-color: #00cccc;
+    color: #1a1a1a;
+}
+
+.content .button-div button:disabled:not(:first-child){
+    background-color: #00cccc;
+    color: #1a1a1a;
+}
+
+.content .button-div button:disabled:not(:last-child){
+    background-color: #00cccc;
+    color: #1a1a1a;
+}
+
+.content .button-div button:disabled:not(:active){
+    background-color: #00cccc;
+    color: #1a1a1a;
+}
+
+.content .button-div button:disabled:not(:hover){
+    background-color: #00cccc;
+    color: #1a1a1a;
+}
+
+.content .button-div button:disabled:not(:focus){
+    background-color: #00cccc;
+    color: #1a1a1a;
+}
+
+.content .button-div button:disabled:not(:visited){
+    background-color: #00cccc;
+    color: #1a1a1a;
+}
+
+.content .button-div button:disabled:not(:link){
+    background-color: #00cccc;
+    color: #1a1a1a;
+}
+
+.content .button-div button:disabled:not(:after){
+    background-color: #00cccc;
+    color: #1a1a1a;
+}
